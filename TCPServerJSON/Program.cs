@@ -5,7 +5,7 @@ using System.Net.Sockets;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-Console.WriteLine("TcpServerTest");
+Console.WriteLine("TcpServerJSONTest");
 
 TcpListener listener = new TcpListener(IPAddress.Any, 7);
 listener.Start();
